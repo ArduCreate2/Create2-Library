@@ -1,7 +1,7 @@
 # Create2-Library
 Arduino Library for communicating with the iRobot Create 2.
 
-Our names are Ducnan Lilley and Susan Tuvell.
+Our names are Duncan Lilley and Susan Tuvell.
 While taking an undergraduate robotics course at Hobart and William Smith Colleges, we interfaced Arduino microcontrollers with
 the iRobot Create 2 for a project. As the Create 2 had recently been released, there were no preexisting Arduino libraries to
 work with. Instead of just working with Mike McCauley's library for the original iRobot Create
