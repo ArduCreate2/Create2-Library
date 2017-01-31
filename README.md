@@ -9,7 +9,7 @@ work with. Instead of just working with Mike McCauley's library for the original
 changes found in the Create 2. 
 
 A more detailed description of our library, along with the associated API and download links for the library and the Create 2
-Open Interface, can be found at http://math.hws.edu/Create2Library/.
+Open Interface, can currently be found at http://lilleypad.net/projects/create2Library/.
 
 To install this library for use with Arduino, the unzipped folder will need to be renamed "Create2". Then, follow the official
 Arduino instructions for installing a library found here: http://www.arduino.cc/en/Hacking/Libraries.
