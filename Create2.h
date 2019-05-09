@@ -345,7 +345,7 @@ class Create2{
     /// Changes mode to Passive
     void spot(); //opCode-134
     
-    /// Starts the defaul cleaning mode
+    /// Starts the default cleaning mode
     /// Changes mode to Passive
     void clean(); //opCode-135
     
@@ -393,7 +393,7 @@ class Create2{
     /// different lengths, and it is the callers responsibilty to make sure len agrees with the expected 
     /// length of the sensor data. See the Open Interface manual for details on sensor packet lengths.
     /// Create2.h defines various enums and defines for decoding sensor data.
-    /// Blocks untill all len bytes are read or a read timeout occurs.
+    /// Blocks until all len bytes are read or a read timeout occurs.
     /// \param[in] packetID The ID of the sensor packet to read from Create2::Sensor
     /// \param[out] destination Destination where the read data is stored. 
     /// Must have at least length bytes available.
@@ -486,7 +486,7 @@ class Create2{
     /// No change to mode
     /// \param[in] digit3 ASCII code for the leftmost display.
     /// \param[in] digit2 ASCII code for the second display from the left.
-    /// \param[in] digit1 ASCII code for the second dispaly from the right.
+    /// \param[in] digit1 ASCII code for the second display from the right.
     /// \param[in] digit0 ASCII code for the rightmost display.
     void digitLEDsASCII(uint8_t digit3, uint8_t digit2, uint8_t digit1, uint8_t digit0); //opCode-164
     
@@ -515,8 +515,8 @@ class Create2{
     /// 0 to 59
     void setDayTime(uint8_t day, uint8_t hour, uint8_t minute); //opCode-168
     
-    /// Low level funciton to read length bytes of data from the Roomba
-    /// Blocks untill all length bytes are read or a read timeout occurs.
+    /// Low level function to read length bytes of data from the Roomba
+    /// Blocks until all length bytes are read or a read timeout occurs.
     /// \param[out] destination Destination where the read data is stored. 
     /// Must have at least length bytes available.
     /// \param[in] length Number of bytes to read
